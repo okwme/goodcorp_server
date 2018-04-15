@@ -1,0 +1,12 @@
+{
+  "name": "goodcorp",
+  "version": "0.1.0",
+  "scripts": {
+    "app": "node app.js"
+  },
+  "dependencies": {
+    "coins": "github:okwme/coins",
+    "lotion": "^0.1.18",
+    "shea": "0.0.13"
+  }
+}
