@@ -22,8 +22,9 @@ app.useBlock(function (state, chainInfo) {
 app.use(shea('public/'))
 
 let port = process.env.PORT || 3000
-app.listen(port, '0.0.0.0').then(({ GCI }) => {
-  console.log('App GCI:', GCI)
+app.listen(port, '0.0.0.0').then((appinfo) => {
+  console.log(appinfo)
+  console.log('App GCI:', appinfo.GCI)
   console.log('localhost:' + port)
 })
 
