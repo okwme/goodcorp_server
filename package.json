@@ -2,7 +2,7 @@
   "name": "goodcorp",
   "version": "0.1.0",
   "scripts": {
-    "app": "node app.js"
+    "app": "PRODUCTION=true node app.js"
   },
   "dependencies": {
     "coins": "github:okwme/coins",

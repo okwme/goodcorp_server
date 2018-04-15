@@ -3,7 +3,7 @@ let shea = require('shea')
 let coins = require('coins')
 
 let app = lotion({
-  devMode: true //process.env.PRODUCTION !== 'true'
+  devMode: process.env.PRODUCTION !== 'true'
 })
 
 app.use(coins({
